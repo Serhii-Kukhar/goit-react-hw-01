@@ -10,7 +10,14 @@
   border: 1px solid #141414;
   border-radius: 5px;
   padding: 5px;
+  transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
 }
+
 .image {
   width: 40px;
   margin: 5px auto;
