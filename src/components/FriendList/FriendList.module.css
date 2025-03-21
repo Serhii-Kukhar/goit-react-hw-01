@@ -1,0 +1,23 @@
+.friendsList {
+  margin: 0 auto 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.friendItem {
+  width: 70px;
+  height: 110px;
+  border: 1px solid #141414;
+  border-radius: 5px;
+  padding: 5px;
+}
+.image {
+  width: 40px;
+  margin: 5px auto;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}

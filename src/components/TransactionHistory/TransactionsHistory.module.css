@@ -1,0 +1,29 @@
+.transactionTable {
+  width: 500px;
+  border-collapse: collapse;
+  margin: 0 auto 15px;
+}
+.tableThead {
+  background-color: #3d3d3d;
+  border: 1px solid #141414;
+}
+.headerCell {
+  padding: 10px;
+  font-weight: bold;
+  color: whitesmoke;
+  text-align: center;
+  border: 1px solid #141414;
+  text-transform: uppercase;
+}
+.tableRow {
+  border: 1px solid #141414;
+}
+
+.tableCell {
+  padding: 5px;
+  border: 1px solid #141414;
+}
+
+.tableRow:nth-child(even) {
+  background-color: #c2c2c2;
+}
