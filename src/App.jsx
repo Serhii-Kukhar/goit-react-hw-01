@@ -1,10 +1,11 @@
 import "./App.css";
-import userData from "../src/userData.json";
-import friends from "../src/friends.json";
-import transactions from "../src/transactions.json";
+import userData from "./assets/data-json/userData.json";
+import friends from "./assets/data-json/friends.json";
+import transactions from "./assets/data-json/transactions.json";
 import Profile from "./components/Profile/Profile";
 import FriendList from "./components/FriendList/FriendList";
 import TransactionHistory from "./components/TransactionHistory/TransactionHistory";
+import "modern-normalize";
 
 const App = () => {
   return (
